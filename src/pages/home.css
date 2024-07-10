@@ -1,0 +1,8 @@
+.homeContainer{
+  background-image: url(../home.webp);
+  background-size: cover;
+  object-fit: contain;
+   background-repeat: no-repeat;
+   height:100vh;
+
+}
