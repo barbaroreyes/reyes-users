@@ -6,16 +6,24 @@ const Navbar = ()=> {
   return (
     <nav className="navigation">
      
-          <Link to="/">Home</Link>
+    <div className="link-container">
+      <span>Menu</span>
+     <div className="nav-line"></div>
+     <div className="nav-line"></div>
+     <div className="nav-line"></div>
+    
+    
+    <Link to="/">Home</Link>
     
       
-          <Link to="/">Home</Link>
-        
-     
-          <Link to="/">Home</Link>
-       
-      
-          <Link to="/">Home</Link>
+    <Link to="/">Home</Link>
+  
+
+    <Link to="/">Home</Link>
+ 
+
+    <Link to="/">Home</Link>
+    </div>
        
      
     </nav>

@@ -1,5 +1,29 @@
 .navigation {
 display : flex;
-justify-content: space-around;
-align-items: center;
+flex-direction: column;
+padding: 10px;
+
+}
+.link-container{
+    height: 10vh;
+    flex-direction: column;
+}
+.nav-line{
+    display: flex;
+    margin: 6px;
+    border:1px solid black; 
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 10%;
+  
+}
+.navigation:hover a{
+    transition: all 3s;
+   display: block;
+}
+.navigation a{
+    color: red;
+    display: none;
+
 }

@@ -6,3 +6,23 @@
    height:100vh;
 
 }
+
+.home_page_items{
+   
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+.home-page_item{
+   border:1px solid black; 
+   width:  70%;
+   height: 20vh;
+   margin: 10px;
+   border-radius: 5px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
