@@ -6,7 +6,9 @@
    height:100vh;
 
 }
-
+.home-page-container h3{
+   text-align: center;
+}
 .home_page_items{
    
    display: flex;

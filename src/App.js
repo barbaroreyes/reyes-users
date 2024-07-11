@@ -4,6 +4,7 @@ import './App.css';
 
 import Home from "./pages/Home";
 import HomePage from "./pages/HomePage";
+import Ride from "./pages/Ride";
 
 function App() {
   return (
@@ -17,6 +18,10 @@ function App() {
           <Route 
         path='/homepage'
         element={<HomePage/>}
+         />
+           <Route 
+        path='/ride'
+        element={<Ride/>}
          />
       </Routes>
      

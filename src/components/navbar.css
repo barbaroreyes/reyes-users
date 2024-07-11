@@ -19,11 +19,13 @@ padding: 10px;
   
 }
 .navigation:hover a{
-    transition: all 3s;
+    border:1px solid black; 
+    
    display: block;
 }
 .navigation a{
     color: red;
+    margin: 10px;
     display: none;
 
 }
